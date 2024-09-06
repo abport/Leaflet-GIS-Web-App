@@ -1,0 +1,44 @@
+#map {
+  height: 600px;
+}
+
+.custom-popup .leaflet-popup-content-wrapper {
+  background: rgba(255, 255, 255, 0.8);
+  color: #333;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.custom-popup .leaflet-popup-content-wrapper a {
+  color: rgba(255, 128, 0, 0.8);
+}
+
+.custom-popup .leaflet-popup-tip-container {
+  width: 30px;
+  height: 15px;
+}
+
+.custom-popup .leaflet-popup-tip {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+* {
+  cursor: default !important;
+}
+
+.leaflet-interactive {
+  cursor: default !important;
+}
+
+body {
+  font-size: small;
+}
+
+.leaflet-marker-draggable {
+  background: transparent !important;
+  border: none !important;
+}
+
+.custom-icon-text {
+  font-size: 0.775rem;
+}

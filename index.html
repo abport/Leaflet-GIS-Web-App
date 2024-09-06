@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaflet GIS Web App</title>
+
+    <link rel="stylesheet" href="css/leaflet.css" />
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/leaflet.draw.css" />
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/all.min.css" />
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <h1 class="mt-3 mb-3">Leaflet GIS Web App</h1>
+        <div class="row">
+            <div class="col-md-8">
+                <div id="map"></div>
+            </div>
+            <div class="col-md-4">
+                <div class="mb-3">
+                    <label for="projectSelect" class="form-label">Select Project:</label>
+                    <select id="projectSelect" class="form-select">
+                        <option value="">Select a project</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <button id="newProjectBtn" class="btn btn-primary btn-sm small-text">New Project</button>
+                    <button id="deleteProjectBtn" class="btn btn-danger btn-sm small-text" disabled>Delete
+                        Project</button>
+                </div>
+                <div class="mb-3">
+                    <label for="layerSelect" class="form-label">Select Layer:</label>
+                    <select id="layerSelect" class="form-select" disabled>
+                        <option value="">Select a layer</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <button id="newPointLayerBtn" class="btn btn-secondary btn-sm small-text" disabled>New Point
+                        Layer</button>
+                    <button id="newLineLayerBtn" class="btn btn-secondary btn-sm small-text" disabled>New Line
+                        Layer</button>
+                    <button id="newPolygonLayerBtn" class="btn btn-secondary btn-sm small-text" disabled>New Polygon
+                        Layer</button>
+                    <button id="deleteLayerBtn" class="btn btn-danger btn-sm small-text" disabled>Delete Layer</button>
+                </div>
+                <div class="mb-3">
+                    <button id="copyClipboardBtn" class="btn btn-warning btn-sm small-text">Copy to Clipboard</button>
+                </div>
+                <div class="mb-3">
+                    <button id="exportKMLBtn" class="btn btn-info btn-sm small-text">Export KML</button>
+                    <button id="exportKMZBtn" class="btn btn-info btn-sm small-text">Export KMZ</button>
+                    <button id="exportGeoJSONBtn" class="btn btn-info btn-sm small-text">Export GeoJSON</button>
+                    <button id="exportCSVBtn" class="btn btn-info btn-sm small-text">Export CSV</button>
+                </div>
+                <div class="table-responsive">
+                    <table id="locationTable" class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Description</th>
+                                <th>Latitude</th>
+                                <th>Longitude</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/leaflet.js"></script>
+    <script src="js/leaflet.draw.js"></script>
+    <script src="js/proj4.js"></script>
+    <script src="js/FileSaver.min.js"></script>
+    <script src="js/jszip.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
