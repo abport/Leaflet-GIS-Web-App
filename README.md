@@ -17,7 +17,12 @@ The **Leaflet GIS Web App** is an interactive mapping tool built using the Leafl
 
 ## Demo
 
-Check out the [live demo here](https://abport.github.io/Leaflet-GIS-Web-App/).
+Check out the 
+<a href="https://abport.github.io/Leaflet-GIS-Web-App/"
+    ><img
+      src="https://img.shields.io/static/v1?label=&message=Live%20Demo%20Here&color=orange"
+      height="25"
+  /></a>
 
 ## Features Breakdown
 
