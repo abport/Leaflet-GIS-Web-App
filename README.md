@@ -80,7 +80,7 @@ That's it! You’re ready to explore the app.
 
 ## Screenshots
 
-| ![Projects](screenshot1.png) | ![Markers](screenshot2.png) | ![Export](screenshot3.png) |
+![Projects](https://github.com/abport/Leaflet-GIS-Web-App/blob/main/screenshot.png) 
 
 ## Technologies Used
 - **Leaflet.js** - For map rendering and layer control.
