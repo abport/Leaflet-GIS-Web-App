@@ -52,7 +52,7 @@ The app uses **OpenStreetMap** as the default base layer with options to switch 
 ### Steps to Run Locally
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/leaflet-gis-web-app.git
+   git clone https://github.com/abport/leaflet-gis-web-app.git
    ```
 2. Navigate into the project directory:
    ```bash
